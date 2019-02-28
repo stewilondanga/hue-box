@@ -21,11 +21,11 @@
   --default-bgcolor: gray;
 }
 
-/*.active {
+.active {
   --default-bgcolor: black;
 }
 
-span {
+/*span {
   display: inline-block;
   height: 100px;
   width: 100px;
