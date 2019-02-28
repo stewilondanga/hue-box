@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,25 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+:root {
+  --default-bgcolor: lightgray;
+}
+
+.staged {
+  --default-bgcolor: gray;
+}
+
+.active {
+  --default-bgcolor: black;
+}
+
+span {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: var(--default-bgcolor);
 }
 
 .containers {
